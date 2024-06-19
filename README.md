@@ -141,7 +141,3 @@ Verifies the signature of the data with a public key.
 
 MIT
 ```
-
-### Summary
-
-This `README.md` provides an overview of the functions in your `@nilajs/digital-signature` package, along with installation instructions, usage examples, and an API reference. This documentation will help users understand how to use your package effectively.
