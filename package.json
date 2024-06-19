@@ -1,0 +1,15 @@
+{
+  "name": "@nilajs/digital-signature",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["blockchain", "digital signature"],
+  "author": "sivabharathy <gotocva@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "elliptic": "^6.5.5"
+  }
+}
