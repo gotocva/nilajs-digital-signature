@@ -1,15 +1,24 @@
 {
-  "name": "@nilajs/digital-signature",
+  "name": "nilajs-digital-signature",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "private": false,
   "keywords": ["blockchain", "digital signature"],
   "author": "sivabharathy <gotocva@gmail.com>",
   "license": "MIT",
-  "description": "",
+  "description": "A simple library for generating elliptic curve (secp256k1) key pairs, digital signature, signing data, verifying signatures, and validating public keys.",
   "dependencies": {
     "elliptic": "^6.5.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gotocva/nilajs-digital-signature.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gotocva/nilajs-digital-signature/issues"
+  },
+  "homepage": "https://github.com/gotocva/nilajs-digital-signature#readme"
 }

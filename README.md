@@ -1,4 +1,4 @@
-# @nilajs/digital-signature
+# nilajs-digital-signature
 
 A digital signature is a cryptographic mechanism used to verify the authenticity and integrity of digital messages or documents. It provides assurances that the message was indeed created by a particular entity (authentication) and that the message has not been altered or tampered with since it was signed (integrity).
 
@@ -9,7 +9,7 @@ A simple library for generating elliptic curve (secp256k1) key pairs, signing da
 You can install the package via npm:
 
 ```sh
-npm install @nilajs/digital-signature
+npm install nilajs-digital-signature
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ const {
   checkPublicKeyValid,
   signData,
   verifySignature
-} = require('@nilajs/digital-signature');
+} = require('nilajs-digital-signature');
 ```
 
 ### Generate Wallet
